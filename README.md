@@ -17,12 +17,16 @@ cd EPL_Standings
 ```
 
 ## Usage
-1. Open EPL_Standings.R in your preferred R environment.
-2. Modify the EPL_Standings function call to specify your desired date and season:
-```r
-EPL_Standings("03/07/2022", "2021/22")
-```
-3. Run the script to generate the EPL standings for the specified date and season.
+1. **Option 1: Shiny UI**
+   - Access a deployed version of this project via Shiny. Check it out [here](https://hodubena.shinyapps.io/EPLStandingsPro/).
+
+2. **Option 2: Run Locally**
+   - Open `EPL_Standings.R` in your preferred R environment.
+   - Modify the EPL_Standings function call to specify your desired date and season:
+   ```r
+   EPL_Standings("03/07/2022", "2021/22")
+   ```
+   - Run the script to generate the EPL standings for the specified date and season.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
